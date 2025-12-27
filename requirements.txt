@@ -1,0 +1,23 @@
+# Core Framework
+streamlit==1.38.0          # Latest stable as of Dec 2025, supports dark mode & components
+
+# LLM Integration (Local Models)
+ollama==0.3.3              # Official Python client for Ollama (highly recommended)
+
+# Data Handling & Visualization
+pandas==2.2.3
+plotly==5.24.1             # For interactive pie charts, timelines, etc. (better than matplotlib for Streamlit)
+
+# HTTP & Utilities
+requests==2.32.3
+
+# Optional but Useful Enhancements
+python-dotenv==1.0.1       # For loading .env files (API keys, model configs)
+pydantic==2.9.2            # For structured settings/config validation
+watchdog==5.0.2            # Improves Streamlit hot-reload performance
+
+# For future expansions (comment out if not using yet)
+# langchain==0.3.0
+# langchain-community==0.3.0
+# transformers==4.45.1     # If you add Hugging Face direct inference
+# torch==2.4.1             # Required for some HF models (large dependency)
