@@ -73,13 +73,13 @@ This tool enables security analysts to perform **automated red team campaigns**,
 
 ## Demo Screenshots
 
-![Attack Campaign Complete](screenshots/campaign_complete.png)
-![Manual Attack Lab](screenshots/manual_lab.png)
-![Investigation Workspace](screenshots/investigation.png)
-![Latest Findings Table](screenshots/findings_table.png)
-![Executive Report](screenshots/executive_report.png)
+![Attack Campaign Complete](Screenshots/campaign_complete.png)
+![Manual Attack Lab](Screenshots/manual_lab.png)
+![Investigation Workspace](Screenshots/investigation.png)
+![Latest Findings Table](Screenshots/findings_table.png)
+![Executive Report](Screenshots/executive_report.png)
 
-*(Add more screenshots to a `/screenshots` folder for better visual appeal)*
+*(Add more Screenshots to a `/Screenshots` folder for better visual appeal)*
 
 ## Tech Stack
 
@@ -109,5 +109,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
 
 5.Uvicorn src.main:app --reload
